@@ -3,11 +3,14 @@
     src: "../fonts/Montserrat-Regular.ttf"
 }
 body {
-    font-family: webMontserrat;
+    font-family: Montserrat;
+}
+input::-webkit-input-placeholder {
+    font-family: Montserrat;
 }
 .header {
     text-align: center;
-    padding-top: 200px;
+    padding: 200px 0 210px;
     background: url(../img/header_bg.jpg) no-repeat center;
     background-size: 100%;
     color: #fff;
@@ -20,4 +23,50 @@ body {
 .header h1 {
     font-size: 62px;
     margin-bottom: 90px;
+}
+.header .create-account {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    width: 770px;
+    margin: 0 auto;
+    padding: 60px 100px 50px;
+}
+.header .create-account .account-title {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.header .create-account p {
+    margin-bottom: 20px;
+}
+.header .create-account span {
+    font-size: 12px;
+    opacity: 0.3;
+}
+.create-account .info-form input {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 250px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 20px;
+    border-radius: 2px;
+    margin-right: 30px;
+    float: left;
+    outline: none;
+    color: #fff;
+}
+.info-form input:first-child::-webkit-input-placeholder { /* WebKit browsers */
+    color:#fff;
+}
+.create-account .info-form input:last-child {
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    margin: 0;
+    background: #fff;
+    text-align: center;
+    color: #000;
 }

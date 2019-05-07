@@ -23,6 +23,7 @@ input::-webkit-input-placeholder {
 .header h1 {
     font-size: 62px;
     margin-bottom: 90px;
+    font-weight: lighter;
 }
 .header .create-account {
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -69,4 +70,50 @@ input::-webkit-input-placeholder {
     background: #fff;
     text-align: center;
     color: #000;
+}
+
+
+
+
+
+
+
+.footer {
+    background: #141414;
+    color: #fff;
+    padding: 90px 0 120px;
+}
+.footer dl {
+    float: left;
+    margin: 0 15px;
+    width: 270px;
+}
+.footer dl:last-of-type dd {
+    line-height: 28px;
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.3);
+}
+.footer dd {
+    line-height: 46px;
+}
+.footer dd:hover a {
+    color: #fff;
+}
+.footer dt {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    font-weight: lighter;
+}
+.footer-share-btn {
+    margin-top: 40px;
+}
+.footer-share-btn a i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.footer-share-btn a:hover i {
+    color: #fff;
 }
